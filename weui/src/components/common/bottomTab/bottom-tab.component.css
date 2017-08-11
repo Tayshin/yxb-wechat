@@ -1,0 +1,19 @@
+.weui-tabbar__item.weui-bar__item_on .weui-tabbar__label {
+    color: #3280fc;
+    margin-bottom:0;
+}
+
+.weui-tabbar__item.weui-bar__item_on i {
+    color: #3280fc;
+}
+.my-icon{
+    font-size: 1.2rem;
+}
+.weui-tabbar__item span{
+    line-height:1;
+}
+.my-tabbar{
+    position:fixed;
+    bottom:0;
+    
+}

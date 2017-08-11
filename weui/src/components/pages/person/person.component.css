@@ -1,0 +1,17 @@
+.card{
+    background:#FFFFFF;
+    width:100%;
+    margin:0 auto;
+    margin-bottom:0.5rem;
+    display:flex;
+}
+.my-tabbar{
+    position: fixed;
+}
+.column{
+    margin:0;
+    height: 6rem;
+}
+.column:first-child{
+    margin-top:0.5rem;
+}

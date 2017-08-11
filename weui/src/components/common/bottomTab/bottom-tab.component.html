@@ -1,0 +1,17 @@
+<div class="weui-tabbar my-tabbar">
+    <a [routerLink]="['', 'market']" class="weui-tabbar__item" 
+        [class.weui-bar__item_on]="currentState == 'market'" >
+        <span style="display:inline-block;position: relative;">
+            <i class="icon-shopping-cart my-icon"></i>
+        </span>
+        <p class="weui-tabbar__label">模版</p>
+    </a>
+
+    <a [routerLink]="['', 'person']"class="weui-tabbar__item"
+        [class.weui-bar__item_on]="currentState =='person'">
+        <span style="display:inline-block;position: relative;">
+            <i class="icon-folder-close-alt my-icon"></i>
+        </span>
+        <p class="weui-tabbar__label">我的</p>
+    </a>
+</div>
